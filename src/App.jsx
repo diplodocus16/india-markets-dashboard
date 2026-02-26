@@ -51,8 +51,8 @@ export default function App() {
       `}</style>
       <div style={{ marginBottom:22, display:"flex", justifyContent:"space-between", alignItems:"flex-end" }}>
         <div>
-          <h1 style={{ fontSize:20, fontWeight:600, color:"#111", letterSpacing:"-0.4px" }}>India Markets</h1>
-          <p style={{ fontSize:12.5, color:"#888", marginTop:4 }}>Gold · Silver · Sensex · S&P 500 · NASDAQ · Annual data 1950–present · Drag to zoom</p>
+          <h1 style={{ fontSize:20, fontWeight:600, color:"#111", letterSpacing:"-0.4px" }}>Historic Returns</h1>
+          
         </div>
         <div style={{ textAlign:"right", fontSize:11.5, color:"#aaa" }}>
           {loading && "Loading live prices…"}
